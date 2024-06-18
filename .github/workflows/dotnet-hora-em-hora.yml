@@ -1,0 +1,13 @@
+name: Workflow a cada hora
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  job_example:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Exemplo de etapa 1
+      run: echo "Executando a cada hora"
+
