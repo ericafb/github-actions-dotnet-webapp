@@ -2,7 +2,7 @@ name: Workflow a cada hora
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '6 * * * *'
 
 jobs:
   job_example:
